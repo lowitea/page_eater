@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Lowit's Page Optimizator",
+  "version": "1.0",
+  "description": "Lowit's Start Page",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "page_optimizator@lowit.ru"
+    }
+  },
+  "permissions": ["activeTab", "contextMenus"],
+
+  "background": {
+    "scripts": ["index.js"]
+  }
+}
